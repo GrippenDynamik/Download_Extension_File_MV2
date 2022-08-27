@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+	"name": "Download Extension File MV2",
+	"version": "1.0",
+	"browser_action": {
+		"default_title": "Download Extension File MV2"
+	},
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	},
+	"permissions": [
+		"downloads"
+	]
+}
